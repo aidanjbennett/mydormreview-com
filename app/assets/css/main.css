@@ -1,1 +1,16 @@
 @import 'tailwindcss';
+
+/* Floating label input */
+.float-input {
+  @apply w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm text-gray-900 placeholder-transparent focus:ring-2 focus:ring-blue-500 focus:outline-none;
+}
+
+/* Floating label */
+.float-label {
+  @apply pointer-events-none absolute top-2 left-3 bg-white px-1 text-sm text-gray-500 transition-all peer-placeholder-shown:top-2.5 peer-placeholder-shown:text-sm peer-focus:-top-2 peer-focus:text-xs peer-focus:text-blue-600 peer-[:not(:placeholder-shown)]:-top-2 peer-[:not(:placeholder-shown)]:text-xs;
+}
+
+/* Error states */
+.float-error {
+  @apply border-red-500 focus:ring-red-500;
+}
