@@ -16,16 +16,23 @@
   "dependencies": {
     "@nuxt/a11y": "^1.0.0-alpha.1",
     "@nuxt/eslint": "^1.15.2",
+    "@prisma/adapter-pg": "^7.5.0",
+    "@prisma/client": "^7.5.0",
     "@tailwindcss/vite": "^4.2.1",
+    "better-auth": "^1.4.3",
     "nuxt": "4.2.2",
+    "pg": "^8.20.0",
     "tailwindcss": "^4.2.1",
     "vue": "^3.5.30",
     "vue-router": "^4.6.4"
   },
   "devDependencies": {
+    "@types/pg": "^8.18.0",
+    "dotenv": "^17.3.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
     "prettier": "^3.8.1",
-    "prettier-plugin-tailwindcss": "^0.7.2"
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "prisma": "^7.5.0"
   }
 }

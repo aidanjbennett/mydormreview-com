@@ -1,0 +1,16 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../server/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Uni {
+  id String @id @default(cuid())
+  name String
+  city String
+
+  @@map("universities")
+}
