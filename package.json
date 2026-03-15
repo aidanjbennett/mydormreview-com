@@ -19,6 +19,7 @@
     "@prisma/adapter-pg": "^7.5.0",
     "@prisma/client": "^7.5.0",
     "@tailwindcss/vite": "^4.2.1",
+    "@vueuse/core": "^14.2.1",
     "better-auth": "^1.4.3",
     "nuxt": "4.2.2",
     "pg": "^8.20.0",
