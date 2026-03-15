@@ -7,3 +7,10 @@ datasource db {
   provider = "postgresql"
 }
 
+model Uni {
+  id String @id @default(cuid())
+  name String
+  city String
+
+  @@map("universities")
+}
