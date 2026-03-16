@@ -38,7 +38,7 @@ jobs:
         run: npx eslint . --ext .js,.ts,.vue --fix --max-warnings 0
 
       - name: Commit auto-fixes (if any)
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "style: auto-fix lint and formatting issues"
           commit_user_name: "github-actions[bot]"
