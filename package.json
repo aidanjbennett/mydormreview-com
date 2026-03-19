@@ -18,7 +18,7 @@
     "@nuxt/eslint": "^1.15.2",
     "@prisma/adapter-pg": "^7.5.0",
     "@prisma/client": "^7.5.0",
-    "@tailwindcss/vite": "^4.2.1",
+    "@tailwindcss/vite": "^4.2.2",
     "better-auth": "^1.4.3",
     "nuxt": "4.2.2",
     "pg": "^8.20.0",
